@@ -120,7 +120,7 @@ const Home = () => {
           </div>
         </div>
         <div className={styles.containerFind}>
-          <button className="button-47" onClick={handleBooking}>Tìm kiếm</button>
+          <button className="button-47" onClick={handleBooking}>Search</button>
         </div>
 
         {isError && <p className={styles.errorMessage}>{errorMessage}</p>}
